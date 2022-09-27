@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.latest-card {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  font-family: 'Bree Serif';
+}
+.left-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+.latest-heading {
+  font-size: 36px;
+  font-weight: normal;
+}
+.date-match {
+  font-size: 28px;
+}
+.venue-match {
+  font-size: 18px;
+}
+.latest-image {
+  width: 260px;
+  height: 200px;
+  margin-right: 42px;
+}
+.right-holder {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.values-latest {
+  font-size: 15px;
+}
